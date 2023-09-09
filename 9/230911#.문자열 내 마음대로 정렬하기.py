@@ -7,3 +7,6 @@ def solution(strings, n):
 
 # ex) n=1 & ['sun', 'bed', 'car'] => ['car', 'bed', 'sun'] 
 # => ['car', 'bed', 'sun'](이때 문자열은 0부터 시작하므로 문자의 1번째 글자인 'a', 'e', 'u'를 기준을 정렬한다)
+
+# sort / sorted 차이 
+# sort => 원본 리스트 값 정렬 & return 없음 / sorted => 원본 리스트 값 유지되고 새 리스트에 저장, 따라서 리턴 있음
