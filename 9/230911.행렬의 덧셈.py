@@ -8,7 +8,7 @@ def solution(arr1, arr2):
 # def adjust_matrix_size(arr1, arr2):
 #     rows1, rows2 = len(arr1), len(arr2)
 
-#     # arr1(2)의 첫번째 행의 길이( = arr1(2)의 열의 개수) / if를 사용해 행렬이 비어 있으면 열의 갯수를 0으로 설정
+#     # arr1(2)의 첫번째 행의 길이( = arr1(2)의 열의 개수) / if를 사용해 행렬이 비어 있으면 열의 갯수를 0으로 설정)
 #     cols1, cols2 = len(arr1[0]) if arr1 else 0, len(arr2[0]) if arr2 else 0
 
 #     # 작은 행렬에 새로운 행을 추가하며 행의 크기를 맞춤
