@@ -18,3 +18,5 @@ def solution(n, arr1, arr2):
 # rjust를 통해 만약 a가 n보다 짧다면 그만큼 왼쪽에 '0'을 채워주며 재정의해줌
 
 # replace를 통해 1을 #로, 0을 _로 바꿔주고 append(b)로 answer에 b값을 넣어주고 return
+
+######### 추가 공부를 원할 경우, kakao blind test & 구현 & 문자열 문제 등을 공부할 것
