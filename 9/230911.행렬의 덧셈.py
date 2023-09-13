@@ -1,6 +1,18 @@
 def solution(arr1, arr2):
     return [[a + b for a, b in zip(a_horizon, b_horizon)] for a_horizon, b_horizon in zip(arr1, arr2)]
 
+# def solution(arr1, arr2):
+#     answer = arr1
+
+#     for i in range(len(arr1)):
+#         for j in range(len(arr1[i])):
+#             answer[i][j] = arr1[i][j] + arr2[i][j]
+
+#     return answer
+
+
+
+
 # return[[두 원소를 처리한다 for 가져온 해당행] for 두 행렬의 행을 동시에 가져온다]
 
 
