@@ -7,8 +7,8 @@ def solution(nums):
         for j in range(i+1, l-1):
             for k in range(j+1, l):
                 minor = n[i] + n[j] + n[k]
-                # 소수 판별 코드, all 함수를 추가로 공부할 것
-                if minor > 1 and all(minor % a != 0 for a in range(2, minor)):
+                # 소수 판별 코드, all 함수를 추가로 공부할 것, 제곱근+1을 range로 두면 훨씬 시간 단축이 된다
+                if minor > 1 and all(minor % a != 0 for a in range(2, int(minor**0.5)+1)):
                     count += 1
                     
 #                 if minor < 2:
