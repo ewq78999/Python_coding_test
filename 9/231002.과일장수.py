@@ -12,3 +12,14 @@ def solution(k, m, score):
             answer += min(box) * m      
     
     return answer
+
+# while문 해결 방법(but 시간초과)
+#   while len(score) >= m:
+#       selected = score[:m]
+        
+#       price = min(selected)*m
+#       answer += price
+        
+#       score = score[:m]
+    
+#   return answer
