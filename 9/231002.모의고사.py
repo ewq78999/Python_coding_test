@@ -36,7 +36,7 @@ def solution(answers):
             
     return answer
     
-    
+
 
 def solution(answers):
     # 수포자들의 찍는 패턴
