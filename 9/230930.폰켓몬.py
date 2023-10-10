@@ -15,5 +15,5 @@ def solution(nums):
         
     return result
 
-def solution(nums):
-    return min(len(nums) // 2, len(set(nums)))
+# def solution(nums):
+#     return min(len(nums) // 2, len(set(nums)))
