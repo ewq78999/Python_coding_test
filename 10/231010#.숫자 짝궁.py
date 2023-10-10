@@ -23,7 +23,8 @@ def solution(X, Y):
     # 중복값을 없앤 것들의 교집합
     for i in (set(X) & set(Y)):
         # 같은 수가 count(i) -1 까지 반복되서 추가되게
-        # 그러니까 만약 5가 X에 3개 있어도 Y에 2개만 있기에 min(2)만큼만 추가되게 함
+        # 그러니까 만약 5가 X에 3개 있어도 Y에 2개만 있기에 2만큼만 추가되게 함, 
+        # 즉 둘 중 더 min한 곳을 기준으로 추가한다는 것임
         for j in range(min(X.count(i), Y.count(i))):
             answer.append(i)
             
